@@ -272,7 +272,7 @@ class indi_en_v2_2(QgsProcessingAlgorithm):
         #---connection a la base de données PostGIS---#
 
         try:
-            conn = psycopg2.connect(dbname='Indigen_db', port='5432', user='postgres', host='10.47.52.20', password='Tribu/21')
+            conn = psycopg2.connect(dbname='Indigen_db', port='5432', user='postgres', host='', password='')
         except:
             feedback.pushInfo('\n I am unable to connect to the database \n')
         cur = conn.cursor()
