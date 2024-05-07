@@ -321,7 +321,7 @@ class indi_en_v2_2(QgsProcessingAlgorithm):
 
             #---set host name, port, database name, username and password---#
 
-            uri.setConnection('10.47.52.20', "5432", "Indigen_db", "postgres", "Tribu/21")
+            uri.setConnection('', "5432", "Indigen_db", "postgres", "")
 
             #---creation d'une liste pour stocker les éléments des tables précédemment construites---#
 
